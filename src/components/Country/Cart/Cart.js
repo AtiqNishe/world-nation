@@ -10,6 +10,7 @@ const Cart = (props) => {
    const totalArea = cart.reduce((a, b)=> a+b.area,  0)
     return (
         <div>
+            <h1>Atiq Doly Website</h1>
             <h1>This cart : {cart.length} </h1>
             <p>TotalPopulation : {totalPopulation}</p>
             <p>TotalArea : {totalArea}</p>
